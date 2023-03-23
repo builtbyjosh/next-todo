@@ -23,7 +23,15 @@ const Auth = () => {
       });
   };
   return (
-    <Box position="fixed" top="5%" right="5%">
+    <Box
+      border={"1px"}
+      borderRadius={"2xl"}
+      p={2}
+      boxShadow={"lg"}
+      position="fixed"
+      top="5%"
+      right="5%"
+    >
       {isLoggedIn && (
         <Box>
           <Text color="green.500">{user.email}</Text>

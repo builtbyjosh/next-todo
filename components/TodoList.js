@@ -56,9 +56,9 @@ const TodoList = () => {
           todos.map((todo) => (
             <Box
               p={3}
-              boxShadow="2xl"
-              shadow={"dark-lg"}
-              transition="0.2s"
+              boxShadow="lg"
+              border={"1px"}
+              borderRadius={"2xl"}
               _hover={{ boxShadow: "sm" }}
             >
               <Heading as="h3" fontSize={"xl"}>
